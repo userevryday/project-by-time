@@ -130,3 +130,19 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
         });
+        
+
+
+
+        function firstTask() {
+            
+            const arr = [3, 5, 8, 16, 20, 23, 50];
+            let result = [];
+                for(i=0;i<arr.leng;i++){
+                    result += arr[i];
+                }
+            
+            return result;
+        }
+        console.log(firstTask());
+       
